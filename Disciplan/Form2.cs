@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Disciplan
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void uxStartButton_Click(object sender, EventArgs e)
-        {
-            uxPages.SelectedIndex = 1;
         }
     }
 }
