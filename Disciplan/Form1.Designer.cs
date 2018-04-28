@@ -81,17 +81,18 @@
             // 
             this.uxWelcomeLabel.AutoSize = true;
             this.uxWelcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxWelcomeLabel.Location = new System.Drawing.Point(246, 196);
+            this.uxWelcomeLabel.Location = new System.Drawing.Point(224, 191);
             this.uxWelcomeLabel.Name = "uxWelcomeLabel";
-            this.uxWelcomeLabel.Size = new System.Drawing.Size(484, 55);
+            this.uxWelcomeLabel.Size = new System.Drawing.Size(519, 55);
             this.uxWelcomeLabel.TabIndex = 2;
-            this.uxWelcomeLabel.Text = "Welcome to Disciplan";
+            this.uxWelcomeLabel.Text = "Welcome to DisciPLAN";
             // 
             // uxSecond
             // 
             this.uxSecond.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.uxSecond.Controls.Add(this.uxName);
             this.uxSecond.Controls.Add(this.uxSecondLabel);
+            this.uxSecond.Cursor = System.Windows.Forms.Cursors.Default;
             this.uxSecond.Location = new System.Drawing.Point(4, 22);
             this.uxSecond.Name = "uxSecond";
             this.uxSecond.Padding = new System.Windows.Forms.Padding(3);
@@ -99,7 +100,6 @@
             this.uxSecond.Size = new System.Drawing.Size(977, 536);
             this.uxSecond.TabIndex = 1;
             this.uxSecond.Text = "Second";
-            this.uxSecond.UseWaitCursor = true;
             // 
             // uxName
             // 
@@ -111,7 +111,6 @@
             this.uxName.Size = new System.Drawing.Size(484, 45);
             this.uxName.TabIndex = 3;
             this.uxName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.uxName.UseWaitCursor = true;
             this.uxName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.uxName_KeyDown);
             // 
             // uxSecondLabel
@@ -123,7 +122,6 @@
             this.uxSecondLabel.Size = new System.Drawing.Size(491, 37);
             this.uxSecondLabel.TabIndex = 2;
             this.uxSecondLabel.Text = "What would you like to be called?";
-            this.uxSecondLabel.UseWaitCursor = true;
             // 
             // uxPlanPage
             // 
